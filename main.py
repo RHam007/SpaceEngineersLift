@@ -135,8 +135,14 @@ def main():
     and mass. Input your grid specifications below to get started.
 
     Known Issues:
+    - Only deals with large grid values
     - Does not consider atmosphere/altitude for lift thrust
     - OpenAI based assistant for analysis needs to be migrated to new modual
+                
+    Features In Development
+    - Toggle for small grid or large grid
+    - Support for atmosphereic altitude values
+    - Ongoing bug squashing!
     """)
 
     col1, col2 = st.columns([2, 1])
