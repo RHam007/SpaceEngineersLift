@@ -133,6 +133,10 @@ def main():
     st.markdown("""
     Calculate the lift capacity of your Space Engineers grid based on thruster configuration
     and mass. Input your grid specifications below to get started.
+
+    Known Issues:
+    - Does not consider atmosphere/altitude for lift thrust
+    - OpenAI based assistant for analysis needs to be migrated to new modual
     """)
 
     col1, col2 = st.columns([2, 1])
